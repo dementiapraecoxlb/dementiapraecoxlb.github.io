@@ -6,7 +6,6 @@ function loadData() {
     let data = localStorage.getItem("data");
 
     if (data === null) {
-        alert("Brak danych w pamięci");
         return;
     }
     else {
@@ -46,4 +45,5 @@ saveBtn.addEventListener("click", () => {
         alert("Hasło nieprawidłowe!");
         return;
     }
+
 });
